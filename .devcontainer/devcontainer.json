@@ -1,0 +1,15 @@
+{
+    "name": "PHP Web Development",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "bmewburn.vscode-intelephense-client",
+      "felixfbecker.php-debug"
+    ],
+    "postCreateCommand": "./scripts/install.sh"
+  }
+  
